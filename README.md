@@ -56,9 +56,9 @@ Reg. NO: 212221230100.
 import cv2
 import numpy as np
 
-image = cv2.imread('me.jpg')
+image = cv2.imread('car.jpg')
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-cv2.imshow('Og', image_rgb)
+cv2.imshow('muscle_car', image_rgb)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 roi_mask = np.zeros_like(image_rgb)
